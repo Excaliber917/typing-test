@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    background-color: orange;
+    /* border: 1px solid; */
+    flex-direction: column;
+
+}
+
+.wrapper {
+    /* border: 1px solid; */
+    padding: 2rem;
+    width: 750px;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 15px rgba(2, 3, 1, 0.2);
+    box-shadow: 1px 12px 15px 3px rgb(8 8 8 / 22%);
+
+
+
+}
+
+.input-field {
+    padding: 13px 20px 0;
+    position: absolute;
+    opacity: 0;
+    z-index: 99;
+}
+
+.content-box {
+    border: 1px solid #80808082;
+    padding: 13px 20px 0;
+    border-radius: 0.5rem;
+}
+
+.content {
+    margin-top: 17px;
+    border-top: 1px solid #80808082;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.result-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.result-details li {
+    list-style: none;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.content button {
+    color: #fff;
+    background-color: orange;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 7px #bebebed9;
+    transition: transform 0.3s ease;
+}
+
+.content button:active {
+    transform: scale(0.97);
+}
+
+.typing-text p {
+    position: relative;
+}
+
+.typing-text p .active {
+    color: orange;
+}
+
+.typing-text p span.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.typing-text p span.incorrect {
+    color: red;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ins {
+    font-size: 3.2rem;
+    color: #333;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+.mode-toggle
+{
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+    /* background: transparent; */
+}
+
+
+.mode-toggle i{
+  
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3rem;
+}
